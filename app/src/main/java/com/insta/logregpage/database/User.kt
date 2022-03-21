@@ -16,4 +16,5 @@ data class User(
     val email: String,
     @ColumnInfo(name = "phone")
     val phone: Int
+    
     )
