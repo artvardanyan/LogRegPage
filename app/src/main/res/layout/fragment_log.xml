@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            android:hint="Login" />
+            android:hint="@string/login" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -47,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            android:hint="Password" />
+            android:hint="@string/password" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="160dp"
         android:background="@drawable/backround_botton"
-        android:text="Sing In"
+        android:text="@string/sing_in"
         android:textColor="@color/white"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
@@ -71,7 +71,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Sing Up"
+        android:text="@string/sing_up"
         android:gravity="center"
         android:textSize="22sp"
         android:textColor="@color/black"
